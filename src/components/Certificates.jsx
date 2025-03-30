@@ -29,50 +29,50 @@ function Certificates() {
             <div className="certificate-holder-container">
                 <div className="certificates-track">
                     <div className="certificate-holder">
-                        <img className="certificate" src={angular} alt="angular" />
-                        <img className="certificate" src={beginnerChallenge} alt="Beginner Challenge" />
-                        <img className="certificate" src={codingForData} alt="Coding for data" />
-                        <img className="certificate" src={codingFoundation} alt="Coding foundation" />
-                        <img className="certificate" src={frontend} alt="Frontend for beginners" />
-                        <img className="certificate" src={gameDevWithJS} alt="game development with js" />
-                        <img className="certificate" src={CIntro} alt="Introduction to C" />
-                        <img className="certificate" src={CSSIntro} alt="Introduction to CSS" />
-                        <img className="certificate" src={htmlIntro} alt="Introduction to HTML" />
-                        <img className="certificate" src={JSIntro} alt="Introduction to JS" />
-                        <img className="certificate" src={pythonIntro} alt="Introduction to Python" />
-                        <img className="certificate" src={SQLIntro} alt="Introduction to SQL" />
-                        <img className="certificate" src={JSInter} alt="JS Intermediate" />
-                        <img className="certificate" src={mimoHTML} alt="HTML" />
-                        <img className="certificate" src={mimoJS} alt="JavaScript" />
-                        <img className="certificate" src={pythonDev} alt="Python Developer" />
-                        <img className="certificate" src={pythonInter} alt="Python Intermediate" />
-                        <img className="certificate" src={sqlInter} alt="SQL Intermediate" />
-                        <img className="certificate" src={techForEveryone} alt="Tech for Eveyone" />
-                        <img className="certificate" src={slWebDev} alt="Web Development" />
+                        <img className="certificate" src={angular} alt="angular" loading="lazy" />
+                        <img className="certificate" src={beginnerChallenge} alt="Beginner Challenge" loading="lazy" />
+                        <img className="certificate" src={codingForData} alt="Coding for data" loading="lazy" />
+                        <img className="certificate" src={codingFoundation} alt="Coding foundation" loading="lazy" />
+                        <img className="certificate" src={frontend} alt="Frontend for beginners" loading="lazy" />
+                        <img className="certificate" src={gameDevWithJS} alt="game development with js" loading="lazy" />
+                        <img className="certificate" src={CIntro} alt="Introduction to C" loading="lazy" />
+                        <img className="certificate" src={CSSIntro} alt="Introduction to CSS" loading="lazy" />
+                        <img className="certificate" src={htmlIntro} alt="Introduction to HTML" loading="lazy" />
+                        <img className="certificate" src={JSIntro} alt="Introduction to JS" loading="lazy" />
+                        <img className="certificate" src={pythonIntro} alt="Introduction to Python" loading="lazy" />
+                        <img className="certificate" src={SQLIntro} alt="Introduction to SQL" loading="lazy" />
+                        <img className="certificate" src={JSInter} alt="JS Intermediate" loading="lazy" />
+                        <img className="certificate" src={mimoHTML} alt="HTML" loading="lazy" />
+                        <img className="certificate" src={mimoJS} alt="JavaScript" loading="lazy" />
+                        <img className="certificate" src={pythonDev} alt="Python Developer" loading="lazy" />
+                        <img className="certificate" src={pythonInter} alt="Python Intermediate" loading="lazy" />
+                        <img className="certificate" src={sqlInter} alt="SQL Intermediate" loading="lazy" />
+                        <img className="certificate" src={techForEveryone} alt="Tech for Eveyone" loading="lazy" />
+                        <img className="certificate" src={slWebDev} alt="Web Development" loading="lazy" />
                     </div>
 
                     {/* Duplicating for infinite scroll */}
                     <div className="certificate-holder">
-                        <img className="certificate" src={angular} alt="angular" />
-                        <img className="certificate" src={beginnerChallenge} alt="Beginner Challenge" />
-                        <img className="certificate" src={codingForData} alt="Coding for data" />
-                        <img className="certificate" src={codingFoundation} alt="Coding foundation" />
-                        <img className="certificate" src={frontend} alt="Frontend for beginners" />
-                        <img className="certificate" src={gameDevWithJS} alt="game development with js" />
-                        <img className="certificate" src={CIntro} alt="Introduction to C" />
-                        <img className="certificate" src={CSSIntro} alt="Introduction to CSS" />
-                        <img className="certificate" src={htmlIntro} alt="Introduction to HTML" />
-                        <img className="certificate" src={JSIntro} alt="Introduction to JS" />
-                        <img className="certificate" src={pythonIntro} alt="Introduction to Python" />
-                        <img className="certificate" src={SQLIntro} alt="Introduction to SQL" />
-                        <img className="certificate" src={JSInter} alt="JS Intermediate" />
-                        <img className="certificate" src={mimoHTML} alt="HTML" />
-                        <img className="certificate" src={mimoJS} alt="JavaScript" />
-                        <img className="certificate" src={pythonDev} alt="Python Developer" />
-                        <img className="certificate" src={pythonInter} alt="Python Intermediate" />
-                        <img className="certificate" src={sqlInter} alt="SQL Intermediate" />
-                        <img className="certificate" src={techForEveryone} alt="Tech for Eveyone" />
-                        <img className="certificate" src={slWebDev} alt="Web Development" />
+                        <img className="certificate" src={angular} alt="angular" loading="lazy" />
+                        <img className="certificate" src={beginnerChallenge} alt="Beginner Challenge" loading="lazy" />
+                        <img className="certificate" src={codingForData} alt="Coding for data" loading="lazy" />
+                        <img className="certificate" src={codingFoundation} alt="Coding foundation" loading="lazy" />
+                        <img className="certificate" src={frontend} alt="Frontend for beginners" loading="lazy" />
+                        <img className="certificate" src={gameDevWithJS} alt="game development with js" loading="lazy" />
+                        <img className="certificate" src={CIntro} alt="Introduction to C" loading="lazy" />
+                        <img className="certificate" src={CSSIntro} alt="Introduction to CSS" loading="lazy" />
+                        <img className="certificate" src={htmlIntro} alt="Introduction to HTML" loading="lazy" />
+                        <img className="certificate" src={JSIntro} alt="Introduction to JS" loading="lazy" />
+                        <img className="certificate" src={pythonIntro} alt="Introduction to Python" loading="lazy" />
+                        <img className="certificate" src={SQLIntro} alt="Introduction to SQL" loading="lazy" />
+                        <img className="certificate" src={JSInter} alt="JS Intermediate" loading="lazy" />
+                        <img className="certificate" src={mimoHTML} alt="HTML" loading="lazy" />
+                        <img className="certificate" src={mimoJS} alt="JavaScript" loading="lazy" />
+                        <img className="certificate" src={pythonDev} alt="Python Developer" loading="lazy" />
+                        <img className="certificate" src={pythonInter} alt="Python Intermediate" loading="lazy" />
+                        <img className="certificate" src={sqlInter} alt="SQL Intermediate" loading="lazy" />
+                        <img className="certificate" src={techForEveryone} alt="Tech for Eveyone" loading="lazy" />
+                        <img className="certificate" src={slWebDev} alt="Web Development" loading="lazy" />
                     </div>
                 </div>
             </div>

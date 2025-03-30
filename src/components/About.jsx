@@ -1,5 +1,5 @@
 import readingImg from "../assets/my_book_reading_image.jpg";
-import playImg from "../assets/doing_yoga.jpg";
+import playImg from "../assets/playing-img.jpg";
 import { gsap } from "gsap";
 import { useGSAP } from '@gsap/react';
 

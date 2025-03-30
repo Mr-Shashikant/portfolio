@@ -77,7 +77,7 @@ function Projects() {
 function Card(props) {
     return (
         <div className="flex flex-col justify-center items-center gap-5 max-w-200 bg-[#0a1428] hover:bg-[#081020] rounded-xl hover:-translate-y-2 hover:shadow-emerald-300/2 hover:shadow-xl transition-all duration-300">
-            <img src={props.img.src} alt={props.img.alt} className="rounded-t-xl" />
+            <img src={props.img.src} alt={props.img.alt} className="rounded-t-xl" loading="lazy" />
             <div className="px-5">
                 <h3 className="text-3xl font-bold text-emerald-300 my-6">{props.title}</h3>
                 <div className="text-slate-300">{props.description}</div>
