@@ -29,7 +29,7 @@ function Footer() {
                 </div>
                 <div className="mx-[10%] w-[80%] h-[1px] bg-gradient-to-r from-transparent via-slate-200 to-transparent"></div>
                 <div className="text-center my-7">
-                    &copy; 2025 All rights reserved. Built with ❤️ using React, Tailwind CSS and GSAP. <br />
+                    &copy; {new Date().getFullYear()} All rights reserved. Built with ❤️ using React, Tailwind CSS and GSAP. <br />
                     Developed By <a href="https://github.com/Mr-Shashikant" className="text-cyan-300 font-semibold">Shashikant</a>
                 </div>
             </div>
