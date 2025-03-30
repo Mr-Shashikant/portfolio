@@ -1,0 +1,133 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: rgb(17, 24, 39);
+  color: white;
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+}
+
+.glitch-e {
+  animation: glitch 1s linear infinite;
+}
+
+@keyframes glitch {
+
+  2%,
+  64% {
+    transform: translate(2px, 0) skew(0deg);
+  }
+
+  4%,
+  60% {
+    transform: translate(-2px, 0) skew(0deg);
+  }
+
+  62% {
+    transform: translate(0, 0) skew(5deg);
+  }
+}
+
+.glitch-e:before,
+.glitch-e:after {
+  content: attr(title);
+  position: absolute;
+  left: 0;
+}
+
+.glitch-e:before {
+  animation: glitchTop 1s linear infinite;
+  clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+}
+
+@keyframes glitchTop {
+
+  2%,
+  64% {
+    transform: translate(2px, -2px);
+  }
+
+  4%,
+  60% {
+    transform: translate(-2px, 2px);
+  }
+
+  62% {
+    transform: translate(13px, -1px) skew(-13deg);
+  }
+}
+
+.glitch-e:after {
+  animation: glitchBotom 1.5s linear infinite;
+  clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+  -webkit-clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.certificate-holder-container {
+  overflow-x: hidden;
+  white-space: nowrap;
+  position: relative;
+  width: 100%;
+  mask-image: linear-gradient(to right, #ffffff00, #ffffff, #ffffff, #ffffff, #ffffff00);
+}
+
+.certificates-track {
+  display: flex;
+  width: max-content;
+  padding: 2rem 0;
+  animation: scroll 45s linear infinite;
+}
+
+.certificate-holder {
+  display: flex;
+  flex-shrink: 0;
+  gap: 1rem;
+  margin-right: 2rem;
+}
+
+.certificate {
+  height: 14rem;
+  width: auto;
+  border-radius: 1.5rem;
+  border: 2px solid #5ee9b5;
+}
+
+.certificate-holder-container:hover .certificates-track {
+  animation-play-state: paused;
+}
+.certificate-holder-container:hover .certificates-track .certificate {
+  filter: grayscale(100);
+}
+
+.certificate:hover {
+  filter: grayscale(0) !important;
+  box-shadow: 0 0 20px #5ee9b5;
+  transition: all 0.2s linear;
+}
+
+.flicker {
+  animation: flicker 2s infinite;
+}
+
+@keyframes flicker {
+  0%, 18%, 22%, 25%, 53%, 57%, 100% {
+     opacity: 1;
+  }
+  20%, 24%, 55% {
+     opacity: 0.3;
+  }
+}
