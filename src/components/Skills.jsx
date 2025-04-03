@@ -4,10 +4,10 @@ import htmlLogo from "../assets/logo_html.webp";
 import javascriptLogo from "../assets/logo_javascript.svg";
 import tailwindLogo from "../assets/logo_tailwind.webp";
 import reactLogo from "../assets/logo_react.svg";
-import gitLogo from "../assets/logo_git.png";
-import githubLogo from "../assets/logo_github.png";
-import figmaLogo from "../assets/logo_figma.png";
-import gsapLogo from "../assets/logo_gsap.png";
+import gitLogo from "../assets/logo_git.webp";
+import githubLogo from "../assets/logo_github.webp";
+import figmaLogo from "../assets/logo_figma.webp";
+import gsapLogo from "../assets/logo_gsap.webp";
 import { gsap } from "gsap";
 import { useGSAP } from '@gsap/react';
 
@@ -134,7 +134,7 @@ function Skills() {
 function Cards(prop) {
     return (
         <div className="skill inline-flex justify-center items-center gap-5 p-3 border-1 border-white/30 bg-white/5 bg-opacity-50 backdrop-blur-lg h-fit w-fit rounded-xl transition-all duration-300 hover:shadow-[0_5px_10px_rgba(255,255,255,0.05)] hover:-translate-y-1">
-            <img src={prop.img.src} alt={prop.img.alt} className="h-8" />
+            <img src={prop.img.src} alt={prop.img.alt} className="h-8" loading="lazy" />
             <p className="text-sm">{prop.skillName}</p>
         </div>
     )

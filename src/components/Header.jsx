@@ -1,5 +1,5 @@
-import logoImage from "../assets/logo.png";
-import profileImage from "../assets/profile-image.png";
+import logoImage from "../assets/logo.webp";
+import profileImage from "../assets/profile-image.webp";
 
 function Header() {
     function openMenu() {
