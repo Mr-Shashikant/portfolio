@@ -1,6 +1,5 @@
 import bgImage from "../assets/section.svg"
 import heroImage from "../assets/hero_img.webp"
-import inkImg from "../assets/ink.png"
 import PreloadImage from "./PreloadImage"
 
 function Home() {
