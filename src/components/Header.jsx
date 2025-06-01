@@ -19,7 +19,7 @@ function Header() {
                     <a href="#skills" className="text-white/70 hover:text-white transition-all duration-300">Skills</a>
                     <a href="#projects" className="text-white/70 hover:text-white transition-all duration-300">Projects</a>
                     <a href="#certificates" className="text-white/70 hover:text-white transition-all duration-300">More</a>
-                    <a href="#contact"><button className="bg-linear-to-t from-white/50 to-white/10 rounded-full px-3 py-2 opacity-80 backdrop-blur-xs drop-shadow-[0_10px_10px_rgba(255,255,255,0.5)] tansition-all duration-300 hover:opacity-90 hover:drop-shadow-[0_5px_10px_rgba(255,255,255,0.5)] cursor-pointer">Contact now</button></a>
+                    <a href="#contact"><button className="text-black/70 font-medium bg-linear-to-t from-white to-white rounded-full px-5 py-2 opacity-80 backdrop-blur-xs drop-shadow-[0_10px_10px_rgba(255,255,255,0.5)] tansition-all duration-300 hover:opacity-90 hover:drop-shadow-[0_5px_10px_rgba(255,255,255,0.5)] cursor-pointer">Contact now</button></a>
                 </nav>
                 <img src={profileImage} alt="Profile Picture" className="hidden lg:block h-10 rounded-full grayscale" />
 

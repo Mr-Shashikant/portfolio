@@ -40,7 +40,7 @@ function Contact() {
                 <input type="text" placeholder="Your subject for contact" className="mb-3 w-full px-4 py-3 rounded-lg bg-white/5 border border-gray-700 focus:border-blue-500 focus:outline-none transition-colors" id="userSubject" required />
                 <label htmlFor="userMessage">Your message</label>
                 <textarea name="userMessage" className="mb-3 w-full px-4 py-3 rounded-lg bg-white/5 border border-gray-700 focus:border-blue-500 focus:outline-none transition-colors" id="userMessage" placeholder="Your project idea" required></textarea>
-                <button type="submit" className="bg-gradient-to-r from-cyan-500 to-emerald-500 text-lg rounded-lg py-2 cursor-pointer">Send Message</button>
+                <button type="submit" className="bg-gradient-to-r from-cyan-500 to-emerald-500 text-lg rounded-lg py-2 cursor-pointer opacity-100 transition-all hover:opacity-85 active:opacity-70">Send Message</button>
             </form>
         </section>
     )
